@@ -3,10 +3,8 @@ def life(years):
     total_days = years * days_per_year
     
     for day in range(total_days):
-        if day % 2 == 0:
-            print("Slept")
-        else:
-            print("Awoke")
+        print("Awoke")
+        print("Slept")
     
     print("Died")
 
